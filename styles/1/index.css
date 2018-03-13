@@ -1,0 +1,35 @@
+/*header*/
+#header{
+    position: relative;
+}
+#header h1{
+    display: inline-block;
+    line-height: 150px;
+}
+#header h1 a{
+    text-decoration: none;
+    color: #e34;
+}
+#header ul{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+#header ul li{
+    display: inline-block;
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+}
+#header ul li a{
+    text-decoration: none;
+    color: #ee3344;
+}
+#header ul li a:hover{
+    color: #ae2b32;
+}
+/*footer*/
+#footer{
+    text-align: center;
+    line-height: 60px;
+}
